@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.7](https://github.com/dabakovich/react-native-controlled-mentions/compare/v2.2.6...v2.2.7) (2024-02-19)
+
 ### [2.2.6](https://github.com/dabakovich/react-native-controlled-mentions/compare/v2.2.5...v2.2.6) (2024-02-19)
 
 ### 2.2.5 (2024-02-19)
