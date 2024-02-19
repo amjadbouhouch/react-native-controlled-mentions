@@ -26,7 +26,6 @@ const MentionInput: FC<MentionInputProps> = (
 
     inputRef: propInputRef,
 
-    containerStyle,
 
     onSelectionChange,
 
@@ -125,7 +124,7 @@ const MentionInput: FC<MentionInputProps> = (
   );
 
   return (
-    <View style={containerStyle}>
+    <React.Fragment>
       {(partTypes
         .filter(one => (
           isMentionPartType(one)
@@ -167,7 +166,7 @@ const MentionInput: FC<MentionInputProps> = (
         )) as MentionPartType[])
         .map(renderMentionSuggestions)
       }
-    </View>
+    </React.Fragment>
   );
 };
 
