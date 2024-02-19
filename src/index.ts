@@ -2,6 +2,7 @@ export * from './components';
 
 export type {
   Suggestion, Part, MentionSuggestionsProps, PartType,
+  MentionInputProps,
 } from './types';
 
 export {
